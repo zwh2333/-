@@ -12,20 +12,19 @@ https://github.com/shadowsocksrr/shadowsocksr-csharp/releases
 ShadowsocksR 版 Android客户端
 https://github.com/shadowsocksrr/shadowsocksr-android/releases
 
-IOS 手机版可在客户端搜索wingy+ superwingy 
-    MAC版:https://www.i5seo.com/1/ssr-mac.dmg
-          https://www.i5seo.com/1/SS-X-R.zip
+Iphone版可在appstore搜索wingy+ superwingy 同类收费软件很多
+MAC版:https://github.com/shadowsocks/ShadowsocksX-NG/releases
 
 #############################################################
 安装方法
 使用root用户登录，依次运行以下三条命令：
 
 wget --no-check-certificate -O shadowsocks-all.sh \
-https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh   #复制这两行
+https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh   #复制这两行 下载安装脚本
 
-chmod +x shadowsocks-all.sh   #复制这一条
+chmod +x shadowsocks-all.sh   #给脚本执行权限
 
-./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log   #复制这一条
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log   #执行脚本
 
 #############################################################
 卸载方法
