@@ -1,0 +1,47 @@
+客户端下载
+
+常规版 Windows 客户端
+https://github.com/shadowsocks/shadowsocks-windows/releases
+
+ShadowsocksR 版 Windows 客户端
+https://github.com/shadowsocksrr/shadowsocksr-csharp/releases
+
+#############################################################
+安装方法
+使用root用户登录，依次运行以下三条命令：
+
+wget --no-check-certificate -O shadowsocks-all.sh \
+https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh   #复制这两行
+
+chmod +x shadowsocks-all.sh   #复制这一条
+
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log   #复制这一条
+
+#############################################################
+卸载方法
+若已安装多个版本，则卸载时也需多次运行（每次卸载一种）
+
+使用root用户登录，运行以下命令：
+
+./shadowsocks-all.sh uninstall
+
+#############################################################
+启动脚本
+启动脚本后面的参数含义，从左至右依次为：启动，停止，重启，查看状态。
+Shadowsocks-Python 版：
+/etc/init.d/shadowsocks-python start | stop | restart | status
+ShadowsocksR 版：
+/etc/init.d/shadowsocks-r start | stop | restart | status
+Shadowsocks-Go 版：
+/etc/init.d/shadowsocks-go start | stop | restart | status
+Shadowsocks-libev 版：
+/etc/init.d/shadowsocks-libev start | stop | restart | status
+各版本默认配置文件
+Shadowsocks-Python 版：
+/etc/shadowsocks-python/config.json
+ShadowsocksR 版：
+/etc/shadowsocks-r/config.json
+Shadowsocks-Go 版：
+/etc/shadowsocks-go/config.json
+Shadowsocks-libev 版：
+/etc/shadowsocks-libev/config.json
