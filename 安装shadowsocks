@@ -1,15 +1,14 @@
 客户端下载
-
-常规版 Windows 客户端
+### Windows 客户端
+### 常规版 
 https://github.com/shadowsocks/shadowsocks-windows/releases
-
-常规版 Android客户端
-https://github.com/shadowsocks/shadowsocks-android/releases
-
-ShadowsocksR 版 Windows 客户端
+### ShadowsocksR 版
 https://github.com/shadowsocksrr/shadowsocksr-csharp/releases
 
-ShadowsocksR 版 Android客户端
+### Android客户端
+### 常规版
+https://github.com/shadowsocks/shadowsocks-android/releases
+### ShadowsocksR 版 
 https://github.com/shadowsocksrr/shadowsocksr-android/releases
 
 Iphone版可在appstore搜索wingy+ superwingy 同类收费软件很多
