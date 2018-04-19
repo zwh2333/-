@@ -1,0 +1,26 @@
+
+###下载安装dockers
+curl -sS https://get.docker.com/ | sh
+
+###启动docker服务
+service docker start
+
+###关闭防火墙
+service firewalld stop
+
+###下载安装outline
+wget -qO- https://raw.githubusercontent.com/Jigsaw-Code/outline-server/master/src/server_manager/install_scripts/install_server.sh | bash
+
+
+###outline官网
+https://getoutline.org/
+
+###github地址
+https://github.com/Jigsaw-Code
+
+###可配合谷歌浏览器扩展switchyomega使用
+###官网:https://switchyomega.com/download.html
+
+###规则地址
+https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt
+
